@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>博客列表</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      padding: 20px;
+    }
+    .book-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .book-item {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      margin: 10px;
+      padding: 10px;
+      width: 200px;
+      text-align: center;
+    }
+    .book-item img {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>博客列表</h1>
+</header>
+<nav>
+  <a href="index.html">首页</a>
+  <a href="books.html">博客列表</a>
+</nav>
+<div class="container">
+  <h2>所有博客</h2>
+  <div class="book-list">
+    <div class="book-item">
+      <img src="book1.jpg" alt="书籍1">
+      <h3>介绍</h3>
+      <p>作者: 马瑞泽</p>
+      <a href="book1.html">查看详情</a>
+    </div>
+    <div class="book-item">
+      <img src="book2.jpg" alt="书籍2">
+      <h3>待更新</h3>
+      <p>作者: 马瑞泽</p>
+      <a href="book2.html">查看详情</a>
+    </div>
+    <!-- 更多博客项 -->
+  </div>
+</div>
+<footer>
+  <p>&copy; 2024 黑吊工作室</p>
+</footer>
+</body>
+</html>
