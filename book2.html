@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>博客列表</title>
+  <title>介绍详情</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -30,21 +31,16 @@
     .container {
       padding: 20px;
     }
-    .book-list {
+    .book-detail {
       display: flex;
-      flex-wrap: wrap;
-    }
-    .book-item {
       background-color: #fff;
       border: 1px solid #ddd;
-      margin: 10px;
-      padding: 10px;
-      width: 200px;
-      text-align: center;
+      padding: 20px;
     }
-    .book-item img {
-      max-width: 100%;
+    .book-detail img {
+      max-width: 200px;
       height: auto;
+      margin-right: 20px;
     }
     footer {
       background-color: #333;
@@ -59,28 +55,22 @@
 </head>
 <body>
 <header>
-  <h1>博客列表</h1>
+  <h1>介绍详情</h1>
 </header>
 <nav>
   <a href="index.html">首页</a>
   <a href="books.html">博客列表</a>
 </nav>
 <div class="container">
-  <h2>所有博客</h2>
-  <div class="book-list">
-    <div class="book-item">
-      <img src="book1.jpg" alt="书籍1">
-      <h3>介绍</h3>
-      <p>作者: 马瑞泽</p>
-      <a href="book1.html">查看详情</a>
+  <div class="book-detail">
+    <img src="mm_reward_qrcode_1733546090814.png" alt="介绍">
+    <div>
+      <h2>捐款</h2>
+      <p><strong>作者:</strong> 马瑞泽</p>
+      <p><strong>出版日期:</strong> 2024年12月7日</p>
+      <p><strong>简介:</strong> 捐款</p>
+      <a href="juankuan.html">查看</a>
     </div>
-    <div class="book-item">
-       <img src="mm_reward_qrcode_1733546090814.png" width="103" alt="书籍2">
-      <h3>捐款</h3>
-      <p>作者: 马瑞泽</p>
-      <a href="book2.html">查看详情</a>
-    </div>
-    <!-- 更多博客项 -->
   </div>
 </div>
 <footer>
